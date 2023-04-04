@@ -5,7 +5,9 @@ Imagine you're in No Man's Land and you need to access their revenue agency in o
 
 ## Instructions
 
-- To inject malicious code via html element, open the search.html page and put the following string in the query input field and then press 'Search':
+To get started, navigate to No Man's Land Revenue Agency home page: https://mtsanovv.github.io/nomanslandra/frontend/index.html
+
+- To inject malicious code via html element, open the search page and put the following string in the query input field and then press 'Search':
 ```article');$("#search").append("<img src=\"https://media.tenor.com/7XnVtgeQv4EAAAAC/money-pool-rich.gif\"/><iframe width=\"1\" height=\"1\" src=\"https://www.youtube.com/embed/_w7Ft_JTbH4?autoplay=1&loop=1\"><\/iframe>");console.log('```
 
 - To inject malicius code via url:
